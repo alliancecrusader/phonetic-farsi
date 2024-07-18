@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\farsi_new.kpj</path>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_1da7c32508ee592aa9fe182b9e75bdc3</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\farsi_new.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_152aa0aa8e89f008ada83e40deffbde6</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\farsi_new.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9e3bddeeb26ac9536eab22dd6d1fdcd3</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a454a985be015c006782c766ddb633e3</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_497beb122e76eb5a01c6639472d94646</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_b748635efdcbecd2aea306092fabbc59</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_aa73fa89edb43eecbf27910d9a7a0c54</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_43dfd81720617eec09f02314dd264384</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\..\build\farsi_new.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5ef78c647221787d34f413a11053ea5d</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\..\build\farsi_new.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_735104d0d3116384eacca2ad921385a0</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\..\build\farsi_new.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\..\LICENSE.md</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>farsi_new.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\a\Documents\Keyman Developer\Projects\farsi_new\source\farsi_new.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

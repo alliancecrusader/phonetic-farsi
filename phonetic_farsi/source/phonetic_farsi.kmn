@@ -1,0 +1,209 @@
+﻿store(&VERSION) '10.0'
+store(&COPYRIGHT) 'Copyright © Amir Reza Ghareebdost'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'windows macosx linux'
+store(&BITMAP) 'phonetic_farsi.ico'
+store(&NAME) 'phonetic_farsi'
+
+c ------------------ Variable Stores -----------------------
+
+c --[[------------ Letters --------------]]--
+
+store(space) U+0020
+
+store(alef) U+0627
+store(alef_madda) U+0622
+store(alef_hamza) U+0623
+
+store(lam) U+644
+store(heh) U+647
+store(mim) U+645
+store(hah) U+062D
+store(khah) U+062E
+store(dal) U+62F
+store(thal) U+0630
+store(be) U+0628
+store(pe) U+067E
+store(teh) U+062A
+store(theh) U+062B
+store(jeem) U+062C
+store(chah) U+0686
+store(ra) U+0631
+store(za) U+0632
+store(zah) U+0638
+store(tah) U+0637
+store(zha) U+0698
+store(ain) U+0639
+store(ghain) U+063A
+store(sad) U+0635
+store(dad) U+0636
+store(feh) U+0641
+store(qaf) U+0642
+store(keheh) U+06A9
+store(gaf) U+06AF
+store(seen) U+0633
+store(sheen) U+0634
+store(waw) U+0648
+
+c --[[------------ Vowels --------------]]--
+
+store(fatha) U+064E
+store(fathatan) U+064B
+
+store(damma) U+064F
+store(dammatan) U+064C
+
+store(kasra) U+0650
+store(kasratan) U+064D
+
+store(sukun) U+0651
+store(shadda) U+0652
+
+c --[[-------- Ligatures ----------]]--
+
+store(Allah) U+FDF2
+store(Muhammad) U+FDF4
+store(AlayhiSalam) U+FD47
+store(Sallallahu) "(ﷺ)"
+store(rasool_allah) "رسول ﷲ(ﷺ)"
+
+c ------------------ Base Keyboard Layout -----------------------
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [SHIFT K_C] > '٬'
++ [SHIFT K_X] > '٫'
++ [SHIFT K_E] > 'ـ'
++ [SHIFT K_SPACE] > '‌'
++ [SHIFT K_Q] > 'ء'
++ [SHIFT K_K] > 'خ'
++ [SHIFT K_S] > 'ص'
++ [SHIFT K_D] > 'ض'
++ [SHIFT K_Z] > 'ظ'
++ [SHIFT K_H] > 'ح'
++ [SHIFT K_G] > 'غ'
++ [SHIFT K_A] > 'ع'
++ [K_BKSLASH] > '\'
++ [SHIFT LALT K_COMMA] > '«'
++ [SHIFT LALT K_PERIOD] > '»'
++ [SHIFT K_BKQUOTE] > '~'
++ [SHIFT K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_4] > '$'
++ [SHIFT K_5] > '٪'
++ [SHIFT K_6] > '^'
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [SHIFT K_0] > ')'
++ [SHIFT K_HYPHEN] > '_'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_BKSLASH] > '|'
++ [SHIFT K_RBRKT] > '}'
++ [SHIFT K_LBRKT] > '{'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_QUOTE] > '"'
++ [SHIFT K_COMMA] > '«'
++ [SHIFT K_PERIOD] > '»'
++ [K_SPACE] > ' '
++ [K_BKQUOTE] > '`'
++ [K_EQUAL] > '='
++ [K_HYPHEN] > '-'
++ [K_RBRKT] > ']'
++ [K_LBRKT] > '['
++ [K_QUOTE] > "'"
++ [K_COLON] > '؛'
++ [K_COMMA] > '،'
++ [K_PERIOD] > '.'
++ [SHIFT K_SLASH] > '؟'
++ [K_SLASH] > '/'
++ [K_0] > '۰'
++ [K_9] > '۹'
++ [K_8] > '۸'
++ [K_7] > '۷'
++ [K_6] > '۶'
++ [K_5] > '۵'
++ [K_4] > '۴'
++ [K_3] > '۳'
++ [K_2] > '۲'
++ [K_1] > '۱'
++ [K_M] > 'م'
++ [K_N] > 'ن'
++ [K_B] > 'ب'
++ [K_V] > 'و'
++ [K_C] > 'چ'
++ [K_X] > 'خ'
++ [K_Z] > 'ز'
++ [K_L] > 'ل'
++ [K_K] > 'ک'
++ [K_J] > 'ج'
++ [K_H] > 'ه'
++ [K_G] > 'گ'
++ [K_F] > 'ف'
++ [K_D] > 'د'
++ [K_S] > 'س'
++ [K_A] > 'ا'
++ [K_P] > 'پ'
++ [K_O] > 'و'
++ [K_I] > 'ی'
++ [K_U] > 'و'
++ [K_Y] > 'ی'
++ [SHIFT K_T] > 'ط'
++ [K_T] > 'ت'
++ [K_R] > 'ر'
++ [K_E] > 'ه'
++ [K_W] > 'و'
++ [K_Q] > 'ق'
+
+c -------------------- Diacritic Implementation ---------------------
+
+any(ra) + "'" > outs(za)
+any(teh) + "'" > outs(theh)
+any(ain) + "'" > outs(ghain)
+any(tah) + "'" > outs(zah)
+any(dal) + "'" > outs(thal)
+any(seen) + "'" > outs(sheen)
+any(sad) + "'" > outs(dad)
+any(feh) + "'" > outs(qaf)
+any(hah) + "'" > outs(khah)
+any(be) + "'" > outs(pe)
+any(za) + "'" > outs(zha)
+any(jeem) + "'" > outs(chah)
+
+c ---------- Miscellanous Ligature Implementation --------------------
+
+any(alef) + "a" > outs(alef_madda)
+any(alef) + "'" > outs(alef_hamza)
+any(keheh) + "'" > outs(gaf)
+
+c --------------- Vowel Implementation ------------------------
+
++ [LALT K_A] > outs(fatha)
+any(fatha) + [LALT K_A] > outs(fathatan)
+
++ [LALT K_E] > outs(kasra)
++ [LALT K_I] > outs(kasra)
+any(kasra) + [LALT K_E] > outs(kasratan)
+any(kasra) + [LALT K_I] > outs(kasratan)
+
++ [LALT K_U] > outs(damma)
++ [LALT K_O] > outs(damma)
+any(damma) + [LALT K_U] > outs(dammatan)
+any(damma) + [LALT K_O] > outs(dammatan)
+
+c ----------------- Ligature Implementation ---------------------
+
+any(alef) any(lam) any(lam) + [K_H] > outs(Allah) c // Allah
+any(mim) any(hah) any(mim) + [K_D] > outs(Muhammad) ' ' outs(Sallallahu) c // Muhammad
+c // Add Sallallahu after Rasool Allah is typed
+any(ra) any(seen) any(waw) any(lam) any(space) any(Allah) + [K_SPACE] > outs(rasool_allah)
+
+c // Prophets
+
+c -- Prophet Musa --
+any(mim) any(waw) any(space) any(alef) + [K_M] > outs(AlayhiSalam) 'موسی'
+
+
+c -----------------------------------------------------------------------------------------
