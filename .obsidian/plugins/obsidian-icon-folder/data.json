@@ -1,0 +1,143 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiInfo",
+      "LiFileCode2",
+      "LiUserCog",
+      "LiCog",
+      "LiSparkle",
+      "LiEdit",
+      "LiLayers",
+      "LiLaptop2",
+      "LiUserSquare",
+      "LiBookText",
+      "LiFileKey",
+      "LiStars",
+      "LiPaintbrush",
+      "LiFileBox",
+      "LiBookUser",
+      "LiActivitySquare",
+      "LiBookOpen",
+      "LiDiamond",
+      "LiCode",
+      "LiDatabase",
+      "LiContainer",
+      "LiFolder",
+      "LiLayers3",
+      "LiUsers",
+      "LiSwords"
+    ],
+    "recentlyUsedIconsSize": 25,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "README.md": {
+    "iconName": "LiBook",
+    "iconColor": "#ffffff"
+  },
+  "scripts": {
+    "iconName": "LiCode",
+    "iconColor": "#00fffb"
+  },
+  "etc": {
+    "iconName": "LiDiamond",
+    "iconColor": "#5e5e5e"
+  },
+  "main": {
+    "iconName": "LiFolder",
+    "iconColor": "#ff6666"
+  },
+  "main/assets": {
+    "iconName": "LiContainer",
+    "iconColor": "#fe542a"
+  },
+  "main/data": {
+    "iconName": "LiDatabase",
+    "iconColor": "#234dcd"
+  },
+  "main/scripts": {
+    "iconName": "LiCode",
+    "iconColor": "#4db040"
+  },
+  "main/rojo": {
+    "iconName": "LiDiamond",
+    "iconColor": "#ff525a"
+  },
+  "main/documentation": "LiBookOpen",
+  "main/data/tile_data": {
+    "iconName": "LiFileBox",
+    "iconColor": "#00b395"
+  },
+  "main/rojo/designer": {
+    "iconName": "LiEdit",
+    "iconColor": "#ffffff"
+  },
+  "main/rojo/level_test": {
+    "iconName": "LiStars",
+    "iconColor": "#6942c2"
+  },
+  "main/data/unit_data": {
+    "iconName": "LiBookUser",
+    "iconColor": "#8c8aff"
+  },
+  "main/data/gh_pat.txt": {
+    "iconName": "LiFileKey",
+    "iconColor": "#babb72"
+  },
+  "main/data/designer_guide.rtf": {
+    "iconName": "LiBookText",
+    "iconColor": "#b92d8c"
+  },
+  "main/assets/unit_assets": {
+    "iconName": "LiUserSquare",
+    "iconColor": "#d40202"
+  },
+  "main/assets/interface": {
+    "iconName": "LiLaptop2",
+    "iconColor": "#a4d7fe"
+  },
+  "main/assets/icons": {
+    "iconName": "LiAlbum",
+    "iconColor": "#4dfe8b"
+  },
+  "main/assets/brand": {
+    "iconName": "LiSparkle",
+    "iconColor": "#dd36a0"
+  },
+  "main/assets/tile_assets": {
+    "iconName": "LiLayers",
+    "iconColor": "#1672d4"
+  },
+  "main/assets/class_archetypes": {
+    "iconName": "LiSwords",
+    "iconColor": "#ceb250"
+  },
+  "main/documentation/Mechanics": {
+    "iconName": "LiCog",
+    "iconColor": "#ffffff"
+  },
+  "main/data/player_data.json": "LiUserCog",
+  "main/data/constants.json": "LiFileCode2",
+  "main/data/class_info.json": "LiInfo"
+}

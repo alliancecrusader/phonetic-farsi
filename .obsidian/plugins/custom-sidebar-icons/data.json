@@ -1,0 +1,69 @@
+{
+  "DefaultFolderIcon": [
+    {
+      "image": "crown",
+      "type": "lucide"
+    }
+  ],
+  "DefaultFileIcon": [
+    {
+      "image": "file-text",
+      "type": "lucide"
+    }
+  ],
+  "SidebarIcons": [],
+  "FolderIcons": [],
+  "FileIcons": [
+    {
+      "id": "file-icon-o5x4bfpp3",
+      "path": [
+        "xcf"
+      ],
+      "image": "etc\\gimp_logo.png",
+      "type": "custom"
+    },
+    {
+      "id": "file-icon-xra6ixpr8",
+      "path": [
+        "png"
+      ],
+      "image": "etc\\png.png",
+      "type": "custom"
+    },
+    {
+      "id": "file-icon-g3qs7xuys",
+      "path": [
+        "json"
+      ],
+      "image": "etc\\json.png",
+      "type": "custom"
+    },
+    {
+      "id": "file-icon-9d1gt0msl",
+      "path": [
+        "lua"
+      ],
+      "image": "etc\\lua.png",
+      "type": "custom"
+    },
+    {
+      "id": "file-icon-twfmks2l7",
+      "path": [
+        "py"
+      ],
+      "image": "etc\\py.png",
+      "type": "custom"
+    }
+  ],
+  "InternalLinkIcons": [
+    {
+      "id": "internalLink-icon-123456789",
+      "path": [
+        "md"
+      ],
+      "image": "file-text",
+      "type": "lucide"
+    }
+  ],
+  "customIcons": []
+}

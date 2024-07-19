@@ -1,4 +1,6 @@
-﻿store(&VERSION) '10.0'
+﻿c ------------------ Variable Stores -----------------------
+
+store(&VERSION) '10.0'
 store(&COPYRIGHT) 'Copyright © Amir Reza Ghareebdost'
 store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'windows macosx linux'
@@ -7,176 +9,241 @@ store(&NAME) 'phonetic_farsi'
 
 c ------------------ Variable Stores -----------------------
 
-c --[[------------ Letters --------------]]--
+store(HONORIFICS_TOGGLE) "1"
+c honorific toggle key combo
+c ctrl + shift + alt + 1-2
+
+store(DIACRITICS_TOGGLE) "1"
+c toggle combo
+c ctrl + shift + alt + 3-4
+
+c --[[------- Numbers and Symbols -------]]--
 
 store(space) U+0020
 
-store(alef) U+0627
-store(alef_madda) U+0622
-store(alef_hamza) U+0623
+store(one)   U+6F1
+store(two)   U+6F2
+store(three) U+6F3
+store(four)  U+6F4
+store(five)  U+6F5
+store(six)   U+6F6
+store(seven) U+6F7
+store(eight) U+6F8
+store(nine)  U+6F9
+store(zero)  U+6F0
 
-store(lam) U+644
-store(heh) U+647
-store(mim) U+645
-store(hah) U+062D
-store(khah) U+062E
-store(dal) U+62F
-store(thal) U+0630
-store(be) U+0628
-store(pe) U+067E
-store(teh) U+062A
-store(theh) U+062B
-store(jeem) U+062C
-store(chah) U+0686
-store(ra) U+0631
-store(za) U+0632
-store(zah) U+0638
-store(tah) U+0637
-store(zha) U+0698
-store(ain) U+0639
-store(ghain) U+063A
-store(sad) U+0635
-store(dad) U+0636
-store(feh) U+0641
-store(qaf) U+0642
-store(keheh) U+06A9
-store(gaf) U+06AF
-store(seen) U+0633
-store(sheen) U+0634
-store(waw) U+0648
+store(percent)       U+66A
+store(decimal_sep)   U+66B
+store(thousands_sep) U+66C
+
+store(kashida)    U+0640
+store(non-joiner) U+200C
+
+store(guillemet_left)  U+00AB
+store(guillemet_right) U+00BB 
+
+store(arabic_semicolon) U+061B
+store(arabic_question)  U+061F
+store(arabic_comma)     U+060C
+
+c --[[------------ Letters --------------]]--
+
+store(alef)              U+0627
+store(alef_madda)        U+0622
+store(alef_hamza)        U+0623
+store(alef_hamza_bottom) U+0625
+store(alef_wasla)        U+671
+store(alef_maksura)      U+649
+
+store(be)          U+628
+store(ya)          U+6CC
+store(ya_arab)     U+64A
+store(lam)         U+644
+store(heh)         U+647
+store(mim)         U+645
+store(hah)         U+062D
+store(khah)        U+062E
+store(dal)         U+62F
+store(thal)        U+0630
+store(pe)          U+067E
+store(teh)         U+062A
+store(teh_marbuta) U+0629
+store(theh)        U+062B
+store(jeem)        U+062C
+store(chah)        U+0686
+store(ra)          U+0631
+store(za)          U+0632
+store(zah)         U+0638
+store(tah)         U+0637
+store(zha)         U+0698
+store(ain)         U+0639
+store(ghain)       U+063A
+store(sad)         U+0635
+store(dad)         U+0636
+store(feh)         U+0641
+store(qaf)         U+0642
+store(keheh)       U+06A9
+store(gaf)         U+06AF
+store(kaf)         U+0643
+store(seen)        U+0633
+store(sheen)       U+0634
+store(waw)         U+0648
+store(nun)         U+646
+store(hamza)       U+621
 
 c --[[------------ Vowels --------------]]--
 
-store(fatha) U+064E
+store(fatha)    U+064E
 store(fathatan) U+064B
 
-store(damma) U+064F
+store(damma)    U+064F
 store(dammatan) U+064C
 
-store(kasra) U+0650
+store(kasra)    U+0650
 store(kasratan) U+064D
 
-store(sukun) U+0651
-store(shadda) U+0652
+store(sukun)  U+0652
+store(shadda) U+0651
+
+store(alef_superscript) U+670
+store(alef_subscript)   U+656
+
+store(hamza_above) U+654
+store(hamza_below) U+655
+
+store(madda) U+653
 
 c --[[-------- Ligatures ----------]]--
 
 store(Allah) U+FDF2
-store(Muhammad) U+FDF4
-store(AlayhiSalam) U+FD47
-store(Sallallahu) "(ﷺ)"
-store(rasool_allah) "رسول ﷲ(ﷺ)"
+
+store(as)             U+FD47
+store(as_bracket) '(' U+FD47 ')' 
+
+store(saw)             U+FDFA
+store(saw_bracket) '(' U+FDFA ')'
+
+c // Prophet Names
+store(Adam)       "آدم"
+store(Sheeth)     "شیث"
+store(Idris)      "إدريس"
+store(Nuh)        "نوح"
+store(Hud)        "هود"
+store(Salih)      "صالح"
+store(Lut)        "لوط"
+store(Ibrahim)    "إبراهيم"
+store(Ismail)     "إسماعيل"
+store(Ishaq)      "إسحاق"
+store(Yaqub)      "یعقوب"
+store(Yusuf)      "یوسف"
+store(Shuayb)     "شعیب"
+store(Ayub)       "أيوب"
+store(DhulKifl)   "ذو الکفل"
+store(Musa)       "موسیٰ"
+store(Haroon)     "هارون"
+store(Dawood)     "داود"
+store(Solomon)    "سليمان"
+store(Alyasa)     "اليسع"
+store(Ilyas)      "إلياس"
+store(Yunus)      "یونس"
+store(Zakariya)   "زكريا"
+store(Yahya)      "يحيى"
+store(Isa)        "عسىٰ ابن مریم"
+store(Muhammad)   U+FDF4
 
 c ------------------ Base Keyboard Layout -----------------------
 
 begin Unicode > use(main)
 
 group(main) using keys
-+ [SHIFT K_C] > '٬'
-+ [SHIFT K_X] > '٫'
-+ [SHIFT K_E] > 'ـ'
-+ [SHIFT K_SPACE] > '‌'
-+ [SHIFT K_Q] > 'ء'
-+ [SHIFT K_K] > 'خ'
-+ [SHIFT K_S] > 'ص'
-+ [SHIFT K_D] > 'ض'
-+ [SHIFT K_Z] > 'ظ'
-+ [SHIFT K_H] > 'ح'
-+ [SHIFT K_G] > 'غ'
-+ [SHIFT K_A] > 'ع'
-+ [K_BKSLASH] > '\'
-+ [SHIFT LALT K_COMMA] > '«'
-+ [SHIFT LALT K_PERIOD] > '»'
-+ [SHIFT K_BKQUOTE] > '~'
-+ [SHIFT K_1] > '!'
-+ [SHIFT K_2] > '@'
-+ [SHIFT K_3] > '#'
-+ [SHIFT K_4] > '$'
-+ [SHIFT K_5] > '٪'
-+ [SHIFT K_6] > '^'
-+ [SHIFT K_7] > '&'
-+ [SHIFT K_8] > '*'
-+ [SHIFT K_9] > '('
-+ [SHIFT K_0] > ')'
-+ [SHIFT K_HYPHEN] > '_'
-+ [SHIFT K_EQUAL] > '+'
-+ [SHIFT K_BKSLASH] > '|'
-+ [SHIFT K_RBRKT] > '}'
-+ [SHIFT K_LBRKT] > '{'
-+ [SHIFT K_COLON] > ':'
-+ [SHIFT K_QUOTE] > '"'
-+ [SHIFT K_COMMA] > '«'
-+ [SHIFT K_PERIOD] > '»'
-+ [K_SPACE] > ' '
-+ [K_BKQUOTE] > '`'
-+ [K_EQUAL] > '='
-+ [K_HYPHEN] > '-'
-+ [K_RBRKT] > ']'
-+ [K_LBRKT] > '['
-+ [K_QUOTE] > "'"
-+ [K_COLON] > '؛'
-+ [K_COMMA] > '،'
-+ [K_PERIOD] > '.'
-+ [SHIFT K_SLASH] > '؟'
-+ [K_SLASH] > '/'
-+ [K_0] > '۰'
-+ [K_9] > '۹'
-+ [K_8] > '۸'
-+ [K_7] > '۷'
-+ [K_6] > '۶'
-+ [K_5] > '۵'
-+ [K_4] > '۴'
-+ [K_3] > '۳'
-+ [K_2] > '۲'
-+ [K_1] > '۱'
-+ [K_M] > 'م'
-+ [K_N] > 'ن'
-+ [K_B] > 'ب'
-+ [K_V] > 'و'
-+ [K_C] > 'چ'
-+ [K_X] > 'خ'
-+ [K_Z] > 'ز'
-+ [K_L] > 'ل'
-+ [K_K] > 'ک'
-+ [K_J] > 'ج'
-+ [K_H] > 'ه'
-+ [K_G] > 'گ'
-+ [K_F] > 'ف'
-+ [K_D] > 'د'
-+ [K_S] > 'س'
-+ [K_A] > 'ا'
-+ [K_P] > 'پ'
-+ [K_O] > 'و'
-+ [K_I] > 'ی'
-+ [K_U] > 'و'
-+ [K_Y] > 'ی'
-+ [SHIFT K_T] > 'ط'
-+ [K_T] > 'ت'
-+ [K_R] > 'ر'
-+ [K_E] > 'ه'
-+ [K_W] > 'و'
-+ [K_Q] > 'ق'
++ [K_A] > outs(alef)
++ [K_B] > outs(be)
++ [K_C] > outs(chah)
++ [K_D] > outs(dal)
++ [K_E] > outs(heh)
++ [K_F] > outs(feh)
++ [K_G] > outs(gaf)
++ [K_H] > outs(heh)
++ [K_I] > outs(ya)
++ [K_J] > outs(jeem)
++ [K_K] > outs(keheh)
++ [K_L] > outs(lam)
++ [K_M] > outs(mim)
++ [K_N] > outs(nun)
++ [K_O] > outs(waw)
++ [K_P] > outs(pe)
++ [K_Q] > outs(qaf)
++ [K_R] > outs(ra)
++ [K_S] > outs(seen)
++ [K_T] > outs(teh)
++ [K_U] > outs(waw)
++ [K_V] > outs(waw)
++ [K_W] > outs(waw)
++ [K_X] > outs(khah)
++ [K_Y] > outs(ya)
++ [K_Z] > outs(za)
+
++ [SHIFT K_A] > outs(ain)
++ [SHIFT K_D] > outs(dad)
++ [SHIFT K_G] > outs(ghain)
++ [SHIFT K_H] > outs(hah)
++ [SHIFT K_K] > outs(khah)
++ [SHIFT K_S] > outs(sad)
++ [SHIFT K_T] > outs(tah)
++ [SHIFT K_Z] > outs(zah)
+
++ [SHIFT K_Q] > outs(hamza)
+
++ [SHIFT K_Y] > outs(ya_arab)
++ [SHIFT K_J] > outs(teh_marbuta)
++ [SHIFT K_C] > outs(thousands_sep)
++ [SHIFT K_X] > outs(decimal_sep)
++ [SHIFT K_E] > outs(kashida)
+
++ [SHIFT LALT K_COMMA]  > outs(guillemet_left)
++ [SHIFT LALT K_PERIOD] > outs(guillemet_right)
++ [SHIFT K_SPACE]       > outs(non-joiner)
++ [SHIFT K_5]           > outs(percent)
++ [SHIFT K_COMMA]       > outs(guillemet_left)
++ [SHIFT K_PERIOD]      > outs(guillemet_right)
++ [SHIFT K_SLASH]       > outs(arabic_question)
++ [K_COLON]             > outs(arabic_semicolon)
++ [K_COMMA]             > outs(arabic_comma)
+
++ [K_0] > outs(zero)
++ [K_9] > outs(nine)
++ [K_8] > outs(eight)
++ [K_7] > outs(seven)
++ [K_6] > outs(six)
++ [K_5] > outs(five)
++ [K_4] > outs(four)
++ [K_3] > outs(three)
++ [K_2] > outs(two)
++ [K_1] > outs(one)
 
 c -------------------- Diacritic Implementation ---------------------
 
-any(ra) + "'" > outs(za)
-any(teh) + "'" > outs(theh)
-any(ain) + "'" > outs(ghain)
-any(tah) + "'" > outs(zah)
-any(dal) + "'" > outs(thal)
-any(seen) + "'" > outs(sheen)
-any(sad) + "'" > outs(dad)
-any(feh) + "'" > outs(qaf)
-any(hah) + "'" > outs(khah)
-any(be) + "'" > outs(pe)
-any(za) + "'" > outs(zha)
-any(jeem) + "'" > outs(chah)
+if(DIACRITICS_TOGGLE = "1") any(ra) + "'"       > outs(za)
+if(DIACRITICS_TOGGLE = "1") any(teh) + "'"      > outs(theh)
+if(DIACRITICS_TOGGLE = "1") any(ain) + "'"      > outs(ghain)
+if(DIACRITICS_TOGGLE = "1") any(tah) + "'"      > outs(zah)
+if(DIACRITICS_TOGGLE = "1") any(dal) + "'"      > outs(thal)
+if(DIACRITICS_TOGGLE = "1") any(seen) + "'"     > outs(sheen)
+if(DIACRITICS_TOGGLE = "1") any(sad) + "'"      > outs(dad)
+if(DIACRITICS_TOGGLE = "1") any(feh) + "'"      > outs(qaf)
+if(DIACRITICS_TOGGLE = "1") any(hah) + "'"      > outs(khah)
+if(DIACRITICS_TOGGLE = "1") any(be) + "'"       > outs(pe)
+if(DIACRITICS_TOGGLE = "1") any(za) + "'"       > outs(zha)
+if(DIACRITICS_TOGGLE = "1") any(jeem) + "'"     > outs(chah)
+if(DIACRITICS_TOGGLE = "1") any(heh) + "'"      > outs(teh_marbuta)
+if(DIACRITICS_TOGGLE = "1") any(ya) + "'"       > outs(ya_arab)
 
 c ---------- Miscellanous Ligature Implementation --------------------
 
-any(alef) + "a" > outs(alef_madda)
-any(alef) + "'" > outs(alef_hamza)
-any(keheh) + "'" > outs(gaf)
+if(DIACRITICS_TOGGLE = "1") any(alef) + "a"  > outs(alef_madda)
+if(DIACRITICS_TOGGLE = "1") any(alef) + "'"  > outs(alef_hamza)
+if(DIACRITICS_TOGGLE = "1") any(keheh) + "'" > outs(gaf)
+if(DIACRITICS_TOGGLE = "1") any(kaf) + "'"   > outs(gaf)
 
 c --------------- Vowel Implementation ------------------------
 
@@ -193,17 +260,151 @@ any(kasra) + [LALT K_I] > outs(kasratan)
 any(damma) + [LALT K_U] > outs(dammatan)
 any(damma) + [LALT K_O] > outs(dammatan)
 
++ [LALT K_M] > outs(shadda)
++ [LALT K_N] > outs(sukun)
++ [LALT K_Q] > outs(madda)
+
++ [LALT K_W] > outs(alef_hamza)
++ [LALT K_S] > outs(alef_hamza_bottom)
+
++ [LALT K_R] > outs(alef_superscript)
++ [LALT K_F] > outs(alef_subscript)
+
++ [SHIFT K_W] > outs(alef_wasla)
++ [SHIFT K_M] > outs(alef_maksura)
++ [SHIFT K_V] > outs(alef_madda)
+
 c ----------------- Ligature Implementation ---------------------
 
-any(alef) any(lam) any(lam) + [K_H] > outs(Allah) c // Allah
-any(mim) any(hah) any(mim) + [K_D] > outs(Muhammad) ' ' outs(Sallallahu) c // Muhammad
-c // Add Sallallahu after Rasool Allah is typed
-any(ra) any(seen) any(waw) any(lam) any(space) any(Allah) + [K_SPACE] > outs(rasool_allah)
+if(HONORIFICS_TOGGLE = "1") any(alef) any(lam) any(lam) + [K_H] > outs(Allah) 
 
 c // Prophets
 
-c -- Prophet Musa --
-any(mim) any(waw) any(space) any(alef) + [K_M] > outs(AlayhiSalam) 'موسی'
+c -- Prophet Muhammad
+if(HONORIFICS_TOGGLE = "1") any(mim) any(hah) any(mim) + [K_D]  > outs(Muhammad) ' ' outs(saw_bracket)
 
+
+c -- Prophet Musa --
+if(HONORIFICS_TOGGLE = "1") any(mim) any(waw) any(seen) + [K_A] > outs(Musa) ' ' outs(as_bracket)
+
+c -- Prophet Ibrahim --
+if(HONORIFICS_TOGGLE = "1") any(alef) any(be) any(ra) any(alef) any(heh) any(ya) + [K_M]                        > outs(Ibrahim) ' ' outs(as_bracket)
+if(HONORIFICS_TOGGLE = "1") any(alef) any(be) any(ra) any(alef) any(heh) any(ya_arab) + [K_M]                   > outs(Ibrahim) ' ' outs(as_bracket)
+if(HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(be) any(ra) any(alef) any(heh) any(ya) + [K_M]           > outs(Ibrahim) ' ' outs(as_bracket)
+if(HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(be) any(ra) any(alef) any(heh) any(ya) + [K_M]       > outs(Ibrahim) ' ' outs(as_bracket)
+if(HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(be) any(ra) any(alef) any(heh) any(ya_arab) + [K_M]      > outs(Ibrahim) ' ' outs(as_bracket)
+if(HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(be) any(ra) any(alef) any(heh) any(ya_arab) + [K_M]  > outs(Ibrahim) ' ' outs(as_bracket)
+
+c -- Prophet Isa
+if (HONORIFICS_TOGGLE = "1") any(ain) any(seen) + [K_A] > outs(Isa) ' ' outs(as_bracket)
+
+c -- Prophet Yahya
+if (HONORIFICS_TOGGLE = "1") any(ya) any(hah) any(ya) + [K_A]       > outs(Yahya) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(ya_arab) any(hah) any(ya) + [K_A]  > outs(Yahya) outs(as_bracket)
+
+c -- Prophet Nuh
+if (HONORIFICS_TOGGLE = "1") any(nun) any(waw) any(hah) + [K_A] > outs(Nuh) ' ' outs(as_bracket)
+
+c -- Prophet Adam
+if (HONORIFICS_TOGGLE = "1") any(alef) any(dal) any(mim) + [K_A]            > outs(Adam) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_madda) any(dal) any(mim) + [K_A]      > outs(Adam) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(madda) any(dal) any(mim) + [K_A] > outs(Adam) ' ' outs(as_bracket)
+
+c -- Prophet Yusuf
+if (HONORIFICS_TOGGLE = "1") any(ya) any(waw) any(seen) + [K_F]       > outs(Yusuf) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(ya_arab) any(waw) any(seen) + [K_F]  > outs(Yusuf) ' ' outs(as_bracket )
+
+c -- Prophet Yunus
+if (HONORIFICS_TOGGLE = "1") any(ya) any(nun) any(waw) + [K_S]       > outs(Yunus) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(ya_arab) any(nun) any(waw) + [K_S]  > outs(Yunus) ' ' outs(as_bracket)
+
+c -- Prophet Idris
+if (HONORIFICS_TOGGLE = "1") any(alef) any(dal) any(ra) any(ya) + [K_S]                        > outs(Idris) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(dal) any(ra) any(ya) + [K_S]           > outs(Idris) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(dal) any(ra) any(ya) + [K_S]       > outs(Idris) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(dal) any(ra) any(ya_arab) + [K_S]                   > outs(Idris) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(dal) any(ra) any(ya_arab) + [K_S]      > outs(Idris) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(dal) any(ra) any(ya_arab) + [K_S]  > outs(Idris) ' ' outs(as_bracket)
+
+c -- Prophet Salih
+if (HONORIFICS_TOGGLE = "1") any(sad) any(alef) any(lam) + [SHIFT K_H] > outs(Salih) outs(as_bracket)
+
+c -- Prophet Lut
+if (HONORIFICS_TOGGLE = "1") any(lam) any(waw) + [SHIFT K_T] > outs(Lut) outs(as_bracket)
+
+c -- Prophet Ismail
+if (HONORIFICS_TOGGLE = "1") any(alef) any(seen) any(mim) any(alef) any(ain) any(ya) + [K_L]        > outs(Ismail) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(seen) any(mim) any(alef) any(ain) any(ya_arab) + [K_L]   > outs(Ismail) ' ' outs(as_bracket)
+
+c -- Prophet Ishaq
+if (HONORIFICS_TOGGLE = "1") any(alef) any(seen) any(heh) any(alef) any(qaf) + [K_L]                  > outs(Ishaq) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(seen) any(heh) any(alef) any(qaf) + [K_L]     > outs(Ishaq) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(seen) any(heh) any(alef) any(qaf) + [K_L] > outs(Ishaq) ' ' outs(as_bracket)
+
+c -- Prophet Yaqub
+if (HONORIFICS_TOGGLE = "1") any(ya) any(ain) any(qaf) any(waw) + [K_B] > outs(Yaqub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(ya_arab) any(ain) any(qaf) any(waw) + [K_B]  > outs(Yaqub) ' ' outs(as_bracket)
+
+c -- Prophet Shuayb
+if (HONORIFICS_TOGGLE = "1") any(sheen) any(ain) any(ya) + [K_B]       > outs(Shuayb) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(sheen) any(ain) any(ya_arab) + [K_B]  > outs(Shuayb) ' ' outs(as_bracket)
+ 
+c -- Prophet Ayub
+if (HONORIFICS_TOGGLE = "1") any(alef) any(ya) any(waw) + [K_B]                        > outs(Ayub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(ya_arab) any(waw) + [K_B]                   > outs(Ayub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_above) any(ya) any(waw) + [K_B]       > outs(Ayub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_above) any(ya_arab) any(waw) + [K_B]  > outs(Ayub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza) any(ya) any(waw) + [K_B]                  > outs(Ayub) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza) any(ya_arab) any(waw) + [K_B]             > outs(Ayub) ' ' outs(as_bracket)
+
+c -- Prophet DhulKifl
+if (HONORIFICS_TOGGLE = "1") any(thal) any(waw) any(space) any(alef) any(lam) any(keheh) + [K_L] > outs(DhulKifl) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(thal) any(waw) any(space) any(alef) any(lam) any(kaf) + [K_L]   > outs(DhulKifl) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(thal) any(waw) any(alef) any(lam) any(keheh) + [K_L]            > outs(DhulKifl) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(thal) any(waw) any(alef) any(lam) any(kaf) + [K_L]              > outs(DhulKifl) ' ' outs(as_bracket)
+
+c -- Prophet Haroon
+if (HONORIFICS_TOGGLE = "1") any(heh) any(alef) any(ra) any(waw) + [K_N]                 > outs(Haroon) ' ' outs(as_bracket)
+
+c -- Prophet Dawood  
+if (HONORIFICS_TOGGLE = "1") any(dal) any(alef) any(waw) any(dal) + [K_D]                > outs(Dawood) ' ' outs(as_bracket)
+
+c -- Prophet Solomon
+if (HONORIFICS_TOGGLE = "1") any(seen) any(lam) any(ya) any(mim) any(alef) + [K_N]       > outs(Solomon) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(seen) any(lam) any(ya_arab) any(mim) any(alef) + [K_N]  > outs(Solomon) ' ' outs(as_bracket)
+
+c -- Prophet Ilyas
+if (HONORIFICS_TOGGLE = "1") any(alef) any(lam) any(ya) any(alef) + [K_S]                         > outs(Ilyas) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(lam) any(ya_arab) any(alef) + [K_S]                    > outs(Ilyas) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(lam) any(ya) any(alef) + [K_S]            > outs(Ilyas) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef_hamza_bottom) any(lam) any(ya_arab) any(alef) + [K_S]       > outs(Ilyas) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(lam) any(ya) any(alef) + [K_S]        > outs(Ilyas) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(hamza_below) any(lam) any(ya_arab) any(alef) + [K_S]   > outs(Ilyas) ' ' outs(as_bracket)
+
+c -- Prophet Alyasa
+if (HONORIFICS_TOGGLE = "1") any(alef) any(lam) any(ya) any(seen) + [SHIFT K_A]       > outs(Alyasa) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(alef) any(lam) any(ya_arab) any(seen) + [SHIFT K_A]  > outs(Alyasa) ' ' outs(as_bracket)
+
+c -- Prophet Zakariya
+if (HONORIFICS_TOGGLE = "1") any(za) any(kaf) any(ra) any(ya) + [K_A]         > outs(Zakariya) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(za) any(kaf) any(ra) any(ya_arab) + [K_A]    > outs(Zakariya) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(za) any(keheh) any(ra) any(ya) + [K_A]       > outs(Zakariya) ' ' outs(as_bracket)
+if (HONORIFICS_TOGGLE = "1") any(za) any(keheh) any(ra) any(ya_arab) + [K_A]  > outs(Zakariya) ' ' outs(as_bracket)
+
+c -- Prophet Hud
+if (HONORIFICS_TOGGLE = "1") any(hah) any(waw) + [K_D] > outs(Hud) ' ' outs(as_bracket)
+
+c -- Prophet Sheeth
+if (HONORIFICS_TOGGLE = "1") any(sheen) any(ya) any(teh) + "'" > outs(Sheeth) ' ' outs(as_bracket)
+
+c ----------------- End of Ligature Implementation ---------------------
+
+c --------------- Toggle Implementation ------------------------
+
++ [SHIFT CTRL ALT K_1] > set(HONORIFICS_TOGGLE = "1") save(HONORIFICS_TOGGLE)
++ [SHIFT CTRL ALT K_2] > set(HONORIFICS_TOGGLE = "0") save(HONORIFICS_TOGGLE)
+
++ [SHIFT CTRL ALT K_3] > set(DIACRITICS_TOGGLE = "1") save(DIACRITICS_TOGGLE)
++ [SHIFT CTRL ALT K_4] > set(DIACRITICS_TOGGLE = "0") save(DIACRITICS_TOGGLE)
 
 c -----------------------------------------------------------------------------------------
