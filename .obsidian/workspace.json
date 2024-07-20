@@ -18,14 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "50d0fe89e9386642",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -73,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,12 +138,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,19 +156,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1cff952e0c4fcf6",
+  "active": "f0bdf14d4343c9d4",
   "lastOpenFiles": [
-    "README.md",
+    "LICENSE",
+    "phonetic_farsi/source/welcome/welcome.htm",
+    "phonetic_farsi/source/welcome",
+    "phonetic_farsi/source/New folder",
+    "phonetic_farsi/source/help/phonetic_farsi.php",
+    "phonetic_farsi/source/help/New Text Document.txt",
+    "phonetic_farsi/source/help",
+    "phonetic_farsi/source/phonetic_farsi.kvks",
+    "phonetic_farsi/build/phonetic_farsi.kmp",
+    "phonetic_farsi/build/phonetic_farsi.kmx",
     "phonetic_farsi/LICENSE.md",
-    "plugins/obsidian-file-color/styles.css",
-    "plugins/obsidian-file-color/main.js",
-    "plugins/obsidian-file-color/manifest.json",
-    "plugins/obsidian-file-color/data.json",
-    "plugins/obsidian-file-color",
-    "plugins/vscode-editor/styles.css",
-    "plugins/vscode-editor/manifest.json",
-    "plugins/vscode-editor/main.js",
-    "plugins/vscode-editor/data.json",
-    "plugins/vscode-editor"
+    "phonetic_farsi/README.md",
+    "README.md",
+    "plugins/obsidian-file-color/styles.css"
   ]
 }
