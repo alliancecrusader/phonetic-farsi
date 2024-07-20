@@ -15,7 +15,7 @@
               "state": {
                 "file": "phonetic_farsi/README.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -158,6 +158,7 @@
   },
   "active": "f0bdf14d4343c9d4",
   "lastOpenFiles": [
+    "phonetic_farsi/phonetic_farsi.kpj.user",
     "LICENSE",
     "phonetic_farsi/source/welcome/welcome.htm",
     "phonetic_farsi/source/welcome",
@@ -170,7 +171,6 @@
     "phonetic_farsi/build/phonetic_farsi.kmx",
     "phonetic_farsi/LICENSE.md",
     "phonetic_farsi/README.md",
-    "README.md",
-    "plugins/obsidian-file-color/styles.css"
+    "README.md"
   ]
 }
