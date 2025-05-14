@@ -1,5 +1,9 @@
 # phonetic-farsi
-A phonetically accurate Farsi (Persian) keyboard with diacritics, vowels, etc, made using Keyman
+
+A phonetically accurate Farsi (Persian) keyboard with diacritics, vowels, etc, made using Keyman.
+Note, some of the characters here may not be available on all typefaces. 
+
+This keyboard was made using the Scherezade New font, which implements all symbols included here.
 
 | Input | Character Output | Character Name             | Unicode | Unicode Name                        |
 | ----- | ---------------- | -------------------------- | ------- | ----------------------------------- |
@@ -84,6 +88,7 @@ A phonetically accurate Farsi (Persian) keyboard with diacritics, vowels, etc, m
 | %     | ٪                | Arabic percentage          | 066A    | ARABIC_PERCENT_SIGN                 |
 
 # Letters with Diacritic Support
+
 To add diacritic, press the apostrophe key (').
 
 | Input | Diacritic Letter | Input Character Name | Output | Output Character Name    |
@@ -126,8 +131,9 @@ To add diacritic, press the apostrophe key (').
 | Alt + q          | ٓ                | Madda            | 0653    | ARABIC_MADDAH_ABOVE            |
 
 # Honorifics/Ligature
+
 To create an honorific, simply type the corresponding letter combination and press Shift + Backquote (Tilde) Ke
- 
+
 | Combination | Honorific                            | Meaning                                                                     | Usage                                                                                                                | Output | Unicode | Unicode Name                                          |
 | ----------- | ------------------------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------ | ------- | ----------------------------------------------------- |
 | صت          | سُبْحَانَهُ وَتَعَالَى<br>           | The Glorious, the Most High                                                 | Used after the name of Allah                                                                                         | ﷾      | FDFE    | ARABIC_LIGATURE_SUBHAANAHU_WA_TAAALAA                 |
@@ -135,8 +141,8 @@ To create an honorific, simply type the corresponding letter combination and pre
 | بسم         | بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ | With the name of Allah, the Infinitely Merciful, the Extremely Merciful     | Recited before reading the Holy Qur'an and performing any daily activity                                             | ﷽      | FDFD    | ARABIC_LIGATURE_BISMILLAH_AR-RAHMAN_AR-RAHEEM         |
 | سا          | صلى الله عليه وآله                   | The blessings of God be upon him and the people of his household.           | Used after the name of the Prophet Muhammad                                                                          | ﵆      | FD46    | ARABIC_LIGATURE_SALLALLAAHU_ALAYHI_WA-AALIH           |
 | سو          | صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ    | The blessings and peace of God be upon him.                                 | Used after the name of a major prophet, particularly Prophet Muhammad                                                | ﷺ      | FDFA    | ARABIC_LIGATURE_SALLALLAHOU_ALAYHE_WASALLAM           |
-| ساو         | صلى الله عليه وآله وسلم              | The blessings of God and peace be upon him and the people of his household. | Used after the name of the Prophet Muhammad                                                                           | ﵌      | FD4C    | ARABIC_LIGATURE_SALLALLAHU_ALAYHI_WAAALIHEE_WA-SALLAM |
-| اس          | عَلَيْهِ ٱلسَّلَامُ                  | Peace be upon him.                                                          | Used after the name of a prophet, Imam or Archangel.                                                                       | ﵇      | FD47    | ARABIC_LIGATURE_ALAYHI_AS-SALAAM                      |
+| ساو         | صلى الله عليه وآله وسلم              | The blessings of God and peace be upon him and the people of his household. | Used after the name of the Prophet Muhammad                                                                          | ﵌      | FD4C    | ARABIC_LIGATURE_SALLALLAHU_ALAYHI_WAAALIHEE_WA-SALLAM |
+| اس          | عَلَيْهِ ٱلسَّلَامُ                  | Peace be upon him.                                                          | Used after the name of a prophet, Imam or Archangel.                                                                 | ﵇      | FD47    | ARABIC_LIGATURE_ALAYHI_AS-SALAAM                      |
 | رال         | رَحِمَهُ ٱللَّٰهُ                    | May God have mercy upon him.                                                | Used for companions of the prophet or other widely recognized scholars. Can be for any believer who has passed away. | ﵀      | FD40    | ARABIC_LIGATURE_RAHIMAHU_ALLAAH                       |
 | رض          | رَضِيَ اللَّهُ عَنْهُ                | May God be pleased with him.                                                | Used for companions of the prophet.                                                                                  | ﵁      | FD41    | ARABIC_LIGATURE_RADI_ALLAAHU_ANH                      |
 | رضا         | رَضِيَ اللَّهُ عَنْهَا               | May God be pleased with her.                                                | Used for companions of the prophet, and in some regions for others such as Mary or Jesus’ apostles.                  | ﵂      | FD42    | ARABIC_LIGATURE_RADI_ALLAAHU_ANHAA                    |
@@ -158,15 +164,22 @@ To create an honorific, simply type the corresponding letter combination and pre
 | Shift + /                  | ؟                | Arabic Question Mark       | 061F    | ARABIC_QUESTION_MARK                       |
 
 # Settings/Toggles
+
 There are 3 settings for the keyboard that can be toggled ON and OFF.
+
 ## Ligature Completion and Honorifics
-CTRL SHIFT ALT + 1 to enable
-CTRL SHIFT ALT + 2 to disable
+
+CTRL SHIFT + 1 to enable
+CTRL SHIFT + 2 to disable
+
 ## Honorific Brackets
-CTRL SHIFT ALT + 3 to enable
-CTRL SHIFT ALT + 4 to disable
+
+CTRL SHIFT + 3 to enable
+CTRL SHIFT + 4 to disable
+
 ## Diacritic Addition
-CTRL SHIFT ALT + 5 to enable
-CTRL SHIFT ALT + 6 to disable
+
+CTRL SHIFT + 5 to enable
+CTRL SHIFT + 6 to disable
 
 https://keyman.com/keyboards/phonetic_farsi?bcp47=fa

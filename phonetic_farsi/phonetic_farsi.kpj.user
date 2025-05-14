@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>1</tab>
+    <tab>4</tab>
     <showhelp>1</showhelp>
     <path>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj</path>
   </ViewState>
@@ -52,16 +52,32 @@
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\readme.htm</FullPath>
     </FileState>
     <FileState>
+      <ID>id_749dbaaa3ac56bf66e959a622b899c9b</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Bold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_01f7667ca53680ee8185d0ccc86a2d65</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Medium.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_10bf5cef040fca6b024a9518b1bc1caf</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_2448eec35960ae62903e4eda2ce74141</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-SemiBold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
       <ID>id_4c4dc4f8c9d8fb885dfaff99b31ea65d</ID>
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\..\build\phonetic_farsi.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_245641feccbf98bff50e42b58d17f8bf</ID>
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\..\build\phonetic_farsi.kvk</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
