@@ -1,6 +1,7 @@
 # phonetic-farsi
 
 A phonetically accurate Farsi (Persian) keyboard with diacritics, vowels, etc, made using Keyman.
+<br>
 Note, some of the characters here may not be available on all typefaces. 
 
 This keyboard was made using the Scherezade New font, which implements all symbols included here.
@@ -168,18 +169,27 @@ To create an honorific, simply type the corresponding letter combination and pre
 There are 3 settings for the keyboard that can be toggled ON and OFF.
 
 ## Ligature Completion and Honorifics
+Whether to enable the addition of ligature completion and honorifics when typing, e.g. "محمد" to "ﷴ (﵌)‏"
 
 CTRL SHIFT + 1 to enable
+<br>
 CTRL SHIFT + 2 to disable
 
 ## Honorific Brackets
+Whether to enable the addition of brackets around the honorifics when typing.
 
 CTRL SHIFT + 3 to enable
+<br>
 CTRL SHIFT + 4 to disable
 
 ## Diacritic Addition
+Whether to enable the addition of diacritics (dots) to letters when typing using the apostrophe key (').
 
-CTRL SHIFT + 5 to enable
+CTRL SHIFT + 5 to enable 
+<br>
 CTRL SHIFT + 6 to disable
+
+## License
+See [LICENSE](LICENSE)
 
 https://keyman.com/keyboards/phonetic_farsi?bcp47=fa
