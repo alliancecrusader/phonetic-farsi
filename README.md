@@ -82,8 +82,10 @@ A phonetically accurate Farsi (Persian) keyboard with diacritics, vowels, etc, m
 | 9     | ۹                | Arabic-Indic Nine          | 06F9    | EXTENDED_ARABIC-INDIC_DIGIT_NINE    |
 | ?     | ؟                | Arabic Question Mark       | 061F    | ARABIC_QUESTION_MARK                |
 | %     | ٪                | Arabic percentage          | 066A    | ARABIC_PERCENT_SIGN                 |
+
 # Letters with Diacritic Support
 To add diacritic, press the apostrophe key (').
+
 | Input | Diacritic Letter | Input Character Name | Output | Output Character Name    |
 | ----- | ---------------- | -------------------- | ------ | ------------------------ |
 | ر     | '                | Ra                   | ز      | Za                       |
@@ -102,7 +104,9 @@ To add diacritic, press the apostrophe key (').
 | ط     | '                | Tah                  | ظ      | Zah                      |
 | ا     | a                | Alef                 | آ      | Alef Madda               |
 | ا     | '                | Alef                 | أ      | Alef Hamza Top           |
+
 # Vowels
+
 | Input            | Character Output | Character Name   | Unicode | Unicode Name                   |
 | ---------------- | ---------------- | ---------------- | ------- | ------------------------------ |
 | Alt + a          | َ                | Fatha            | 0618    | ARABIC_SMALL_FATHA             |
@@ -120,8 +124,10 @@ To add diacritic, press the apostrophe key (').
 | Alt + r          | ٰ                | Alef superscript | 0670    | ARABIC_LETTER_SUPERSCRIPT_ALEF |
 | Alt + f          | ٖ                | Alef subscript   | 0656    | ARABIC_SUBSCRIPT_ALEF          |
 | Alt + q          | ٓ                | Madda            | 0653    | ARABIC_MADDAH_ABOVE            |
+
 # Honorifics/Ligature
-To create an honorific, simply type the corresponding letter combination and press Shift + Backquote (Tilde) Key 
+To create an honorific, simply type the corresponding letter combination and press Shift + Backquote (Tilde) Ke
+ 
 | Combination | Honorific                            | Meaning                                                                     | Usage                                                                                                                | Output | Unicode | Unicode Name                                          |
 | ----------- | ------------------------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------ | ------- | ----------------------------------------------------- |
 | صت          | سُبْحَانَهُ وَتَعَالَى<br>           | The Glorious, the Most High                                                 | Used after the name of Allah                                                                                         | ﷾      | FDFE    | ARABIC_LIGATURE_SUBHAANAHU_WA_TAAALAA                 |
@@ -134,7 +140,9 @@ To create an honorific, simply type the corresponding letter combination and pre
 | رال         | رَحِمَهُ ٱللَّٰهُ                    | May God have mercy upon him.                                                | Used for companions of the prophet or other widely recognized scholars. Can be for any believer who has passed away. | ﵀      | FD40    | ARABIC_LIGATURE_RAHIMAHU_ALLAAH                       |
 | رض          | رَضِيَ اللَّهُ عَنْهُ                | May God be pleased with him.                                                | Used for companions of the prophet.                                                                                  | ﵁      | FD41    | ARABIC_LIGATURE_RADI_ALLAAHU_ANH                      |
 | رضا         | رَضِيَ اللَّهُ عَنْهَا               | May God be pleased with her.                                                | Used for companions of the prophet, and in some regions for others such as Mary or Jesus’ apostles.                  | ﵂      | FD42    | ARABIC_LIGATURE_RADI_ALLAAHU_ANHAA                    |
+
 # Special Characters
+
 | Key Input                  | Character Output | Character Name             | Unicode | Unicode Name                               |
 | -------------------------- | ---------------- | -------------------------- | ------- | ------------------------------------------ |
 | Shift Ctrl + ` (backquote) | ‏                | Right to left mark         | 200F    | RIGHT-TO-LEFT_MARK                         |
@@ -148,6 +156,7 @@ To create an honorific, simply type the corresponding letter combination and pre
 | Shift + X                  | ٫                | Arabic Decimal Separator   | 066B    | ARABIC_DECIMAL_SEPARATOR                   |
 | Shift + C                  | ٬                | Arabic Thousands Separator | 066C    | ARABIC_THOUSANDS_SEPARATOR                 |
 | Shift + /                  | ؟                | Arabic Question Mark       | 061F    | ARABIC_QUESTION_MARK                       |
+
 # Settings/Toggles
 There are 3 settings for the keyboard that can be toggled ON and OFF.
 ## Ligature Completion and Honorifics
