@@ -60,7 +60,7 @@
     <Keyboard>
       <Name>phonetic_farsi</Name>
       <ID>phonetic_farsi</ID>
-      <Version>1.0</Version>
+      <Version>2.0</Version>
       <Languages>
         <Language ID="fa">Persian</Language>
       </Languages>
