@@ -297,9 +297,6 @@ c -------------------- Diacritic Implementation ---------------------
     if(DIACRITICS_TOGGLE = "1") any(jeem) + "'"     > outs(chah)
     if(DIACRITICS_TOGGLE = "1") any(heh) + "'"      > outs(teh_marbuta)
     if(DIACRITICS_TOGGLE = "1") any(ya) + "'"       > outs(ya_arab)
-
-c ---------- Miscellanous Ligature Implementation --------------------
-
     if(DIACRITICS_TOGGLE = "1") any(alef) + "a"  > outs(alef_madda)
     if(DIACRITICS_TOGGLE = "1") any(alef) + "'"  > outs(alef_hamza)
     if(DIACRITICS_TOGGLE = "1") any(keheh) + "'" > outs(gaf)
