@@ -113,23 +113,16 @@ To add diacritic, press the apostrophe key (').
 
 # Vowels
 
-| Input            | Character Output | Character Name   | Unicode | Unicode Name                   |
-| ---------------- | ---------------- | ---------------- | ------- | ------------------------------ |
-| Alt + a          | َ                | Fatha            | 0618    | ARABIC_SMALL_FATHA             |
-| Alt + e          | ِ                | Kasra            | 061A    | ARABIC_SMALL_KASRA             |
-| Alt + i          | ِ                | Kasra            | 061A    | ARABIC_SMALL_KASRA             |
-| Alt + o          | ُ                | Damma            | 0619    | ARABIC_SMALL_DAMMA             |
-| Alt + u          | ُ                | Damma            | 0619    | ARABIC_SMALL_DAMMA             |
-| Alt + a, Alt + a | ً                | Fathatan         | 064B    | ARABIC_FATHATAN                |
-| Alt + e, Alt + e | ٍ                | Kasratan         | 064D    | ARABIC_KASRATAN                |
-| Alt + i, Alt + i | ٍ                | Kasratan         | 064D    | ARABIC_KASRATAN                |
-| Alt + o, Alt + o | ٌ                | Dammatan         | 064C    | ARABIC_DAMMATAN                |
-| Alt + u, Alt + u | ٌ                | Dammatan         | 064C    | ARABIC_DAMMATAN                |
-| Alt + m          | ّ                | Shadda           | 0651    | ARABIC_SHADDA                  |
-| Alt + n          | ْ                | Sukun            | 0652    | ARABIC_SUKUN                   |
-| Alt + r          | ٰ                | Alef superscript | 0670    | ARABIC_LETTER_SUPERSCRIPT_ALEF |
-| Alt + f          | ٖ                | Alef subscript   | 0656    | ARABIC_SUBSCRIPT_ALEF          |
-| Alt + q          | ٓ                | Madda            | 0653    | ARABIC_MADDAH_ABOVE            |
+| Input                | Character Output | Character Name | Unicode | Unicode Name       |
+| -------------------- | ---------------- | -------------- | ------- | ------------------ |
+| Shift + F            | َ                | Fatha          | 0618    | ARABIC_SMALL_FATHA |
+| Shift + I            | ِ                | Kasra          | 061A    | ARABIC_SMALL_KASRA |
+| Shift + U            | ُ                | Damma          | 0619    | ARABIC_SMALL_DAMMA |
+| Shift + F, Shift + F | ً                | Fathatan       | 064B    | ARABIC_FATHATAN    |
+| Shift + I, Shift + I | ٍ                | Kasratan       | 064D    | ARABIC_KASRATAN    |
+| Shift + U, Shift + U | ٌ                | Dammatan       | 064C    | ARABIC_DAMMATAN    |
+| Shift + L            | ّ                | Shadda         | 0651    | ARABIC_SHADDA      |
+| Shift + R            | ْ                | Sukun          | 0652    | ARABIC_SUKUN       |
 
 # Honorifics/Ligature
 
@@ -169,7 +162,7 @@ To create an honorific, simply type the corresponding letter combination and pre
 There are 3 settings for the keyboard that can be toggled ON and OFF.
 
 ## Ligature Completion and Honorifics
-Whether to enable the addition of ligature completion and honorifics when typing, e.g. "محمد" to "ﷴ (﵌)‏"
+Whether to enable the addition of ligature completion and honorifics when typing, e.g. "محمد" to "ﷴ (﵌)‏" (which can be done by pressing Shift + Backquote (Tilde) Key).
 
 CTRL SHIFT + 1 to enable
 <br>
