@@ -1,4 +1,4 @@
-﻿c ------------------ Variable Stores -----------------------
+﻿c Includes the Scheherazade New font family.
 
 store(&VERSION) '10.0'
 store(&COPYRIGHT) 'Copyright © Amir Reza Ghareebdost'
