@@ -196,6 +196,7 @@ store(FatimaMasuma) "فاطمة المعصومة"
 
 c ------------------ Base Keyboard Layout -----------------------
 store(&TARGETS) 'windows macosx linux desktop'
+store(&VISUALKEYBOARD) 'phonetic_farsi.kvks'
 
     begin Unicode > use(main)
 

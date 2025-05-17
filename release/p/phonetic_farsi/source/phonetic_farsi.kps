@@ -55,12 +55,6 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.md</FileType>
     </File>
-     <File>
-      <Name>release\shared\fonts\sil\scherazade_new\ScheherazadeNew-Bold.ttf</Name>
-      <Description></Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
   </Files>
   <Keyboards>
     <Keyboard>
