@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>4</tab>
+    <tab>0</tab>
     <showhelp>1</showhelp>
     <path>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj</path>
+    <file ID="id_MRU0" Expanded="1"/>
+    <file ID="id_MRU1" Expanded="1"/>
+    <file ID="id_00c711a612c34998a0a75ebf51786982" Expanded="1"/>
+    <file ID="id_6aed942f576d30b0b8003fc393d4aabe" Expanded="1"/>
   </ViewState>
   <FileStates>
     <FileState>
       <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\HISTORY.md</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\HISTORY.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\LICENSE.md</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\LICENSE.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_5c100ce247f13cd20584f39d0ffaeeb5</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj</FullPath>
     </FileState>
     <FileState>
       <ID>id_93282b7a4528947519fda2270c050662</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj.user</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\phonetic_farsi.kpj.user</FullPath>
     </FileState>
     <FileState>
       <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\README.md</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\README.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_ce22a70f4a7baa2997755de7091a78fb</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.ico</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.ico</FullPath>
     </FileState>
     <FileState>
       <ID>id_00c711a612c34998a0a75ebf51786982</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.kmn</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
@@ -45,44 +49,61 @@
     </FileState>
     <FileState>
       <ID>id_6aed942f576d30b0b8003fc393d4aabe</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.kps</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.kps</FullPath>
     </FileState>
     <FileState>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\readme.htm</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\readme.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_749dbaaa3ac56bf66e959a622b899c9b</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Bold.ttf</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Bold.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_01f7667ca53680ee8185d0ccc86a2d65</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Medium.ttf</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Medium.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_10bf5cef040fca6b024a9518b1bc1caf</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Regular.ttf</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-Regular.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_2448eec35960ae62903e4eda2ce74141</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-SemiBold.ttf</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\welcome.htm</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\ScheherazadeNew-SemiBold.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_4c4dc4f8c9d8fb885dfaff99b31ea65d</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\..\build\phonetic_farsi.kmx</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\..\build\phonetic_farsi.kmx</FullPath>
     </FileState>
     <FileState>
-      <ID>id_245641feccbf98bff50e42b58d17f8bf</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\..\build\phonetic_farsi.kvk</FullPath>
+      <ID>id_96f025e728b29f3cdb949c96838edf67</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\build\phonetic_farsi.kvk</FullPath>
+      <IDEState>
+        <CodeFont>Tahoma|8|   |1</CodeFont>
+        <CharFont>Tahoma|8|   |1</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
-      <FullPath>Y:\Downloads\HASS Photo Assignment\GH\phonetic-farsi\phonetic_farsi\source\..\LICENSE.md</FullPath>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\..\LICENSE.md</FullPath>
     </FileState>
   </FileStates>
-  <MRU/>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>phonetic_farsi.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\source\phonetic_farsi.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>phonetic_farsi.kvk</Filename>
+      <FileType>.kvk</FileType>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\phonetic_farsi\build\phonetic_farsi.kvk</FullPath>
+    </File>
+  </MRU>
 </KeymanDeveloperProjectUser>
