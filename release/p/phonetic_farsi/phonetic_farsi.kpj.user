@@ -48,6 +48,10 @@
     <FileState>
       <ID>id_6aed942f576d30b0b8003fc393d4aabe</ID>
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\phonetic_farsi.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
     </FileState>
     <FileState>
       <ID>id_64c35211accf754b358b937b31ea2dac</ID>
@@ -73,6 +77,22 @@
       <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\..\LICENSE.md</FullPath>
     </FileState>
+    <FileState>
+      <ID>id_6aa9916c1e335bf9a9b316f685c0fc30</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\..\..\..\shared\fonts\sil\scherazade_new\ScheherazadeNew-Bold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_405fc81c151928d0309fe481781473ab</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\..\..\..\shared\fonts\sil\scherazade_new\ScheherazadeNew-Medium.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_811270baafe2258cc653395d473f15dc</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\..\..\..\shared\fonts\sil\scherazade_new\ScheherazadeNew-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_67a501cd994ac8fba9995ce6c897212d</ID>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\..\..\..\shared\fonts\sil\scherazade_new\ScheherazadeNew-SemiBold.ttf</FullPath>
+    </FileState>
   </FileStates>
   <MRU>
     <File>
@@ -80,6 +100,12 @@
       <Filename>phonetic_farsi.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\phonetic_farsi.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>phonetic_farsi.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\amirg\OneDrive\Documents\Github\phonetic-farsi\release\p\phonetic_farsi\source\phonetic_farsi.kps</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
